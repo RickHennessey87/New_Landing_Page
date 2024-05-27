@@ -1,0 +1,166 @@
+:root {
+    --primary-color: blue;
+    --secondary-color: purple;
+    --bold-font: 600;
+  }
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DejaVu Sans Mono", monospace;
+    background: linear-gradient(to right, #348f50, #56b4d3);;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+} 
+
+nav {
+    background: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-left: 2rem;
+  }
+
+  .nav-link {
+    font-weight: var(--bold-font);
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 2rem auto -6rem;
+  }
+
+  .info h1 {
+    font-size: 1.5rem;
+    margin-bottom: .05rem;
+  }
+
+  .info p {
+    font-size: 
+  }
+
+  .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .red {
+    background-color: var(--secondary-color);
+    margin-right: 1.5rem;
+  }
+  
+  .red:hover {
+    background-color: #f1262d;
+    color: #fff;
+  }
+  
+  .blue {
+    background-color: var(--primary-color);
+  }
+  
+  .blue:hover {
+    background-color: #095cf7;
+    color: #fff;
+  }
+
+  .sub {
+    margin-top: 10rem;
+  }
+
+  .sub h3 {
+    text-align: center;
+  }
+
+  form {
+    text-align: center;
+    margin: 0.4rem 2rem;
+  }
+
+  .name {
+    display: block;
+    padding: 0.2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    margin: auto;
+  }
+
+  .email {
+    display: block;
+    padding: 0.2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    margin: auto;
+  }
+
+  .submit-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.3rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #095cf7;
+  }
+
+  .container {
+    display: block;
+    width: 500px;
+    border: 5px solid teal;
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to right, #ede574, #e1f5c4);
+  }
+
+  footer {
+    border-top: 1px solid #a63a3a;
+    box-shadow: 0px -2px 3px #7d1515;
+    text-align: center;
+    padding: 2rem;
+  }
